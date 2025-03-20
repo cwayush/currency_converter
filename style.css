@@ -3,20 +3,28 @@
     padding: 0;
 }
 
+
 body{
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #f4e4ba;
+    background-color: rgb(103, 103, 103);
 }
 
 .container{
     background-color: white;
     padding: 2rem;
     border-radius: 1rem;
-    min-height: 45vh;
-    width: 40vh;
+    min-height: 50vh;
+    width: 60vh;
+}
+
+.msg_curr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
 }
 
 form{
@@ -63,7 +71,7 @@ form input {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 2rem;
+    margin-top: 3rem;
 
 }
 
@@ -92,7 +100,7 @@ form input {
 } 
 
 .msg{
-    margin-top: 2rem;
+    margin-top: 4rem;
     margin-bottom: 2rem;
     font-weight: bold;
     background-color: #16d405;
